@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rubymod:dark_ruby"
+    },
+    {
+      "item": "rubymod:dark_ruby"
+    },
+    {
+      "item": "rubymod:dark_ruby"
+    },
+    {
+      "item": "rubymod:dark_ruby"
+    },
+    {
+      "item": "rubymod:dark_ruby"
+    },
+    {
+      "item": "rubymod:dark_ruby"
+    },
+    {
+      "item": "rubymod:dark_ruby"
+    },
+    {
+      "item": "rubymod:dark_ruby"
+    },
+    {
+      "item": "rubymod:dark_ruby"
+    }
+  ],
+  "result": {
+    "id": "rubymod:dark_ruby_block",
+    "count": 1
+  }
+}

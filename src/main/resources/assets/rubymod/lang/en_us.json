@@ -1,0 +1,12 @@
+{
+  "item.rubymod.ruby": "Ruby",
+  "item.rubymod.raw_ruby": "Raw Ruby",
+  "item.rubymod.dark_ruby": "Dark Ruby",
+
+  "block.rubymod.ruby_block": "Block of Ruby",
+  "block.rubymod.raw_ruby_block": "Block of Raw Ruby",
+  "block.rubymod.dark_ruby_block": "Block of Dark Ruby",
+
+  "creativetab.rubymod.ruby_items": "Ruby Items",
+  "creativetab.rubymod.ruby_blocks": "Ruby Blocks"
+}
