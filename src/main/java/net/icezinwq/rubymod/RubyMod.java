@@ -64,6 +64,8 @@ public class    RubyMod {
             event.accept(ModBlocks.RUBY_BLOCK);
             event.accept(ModBlocks.RAW_RUBY_BLOCK);
             event.accept(ModBlocks.DARK_RUBY_BLOCK);
+            event.accept(ModBlocks.RUBY_ORE);
+            event.accept(ModBlocks.DEEPSLATE_RUBY_ORE);
         }
 
     }

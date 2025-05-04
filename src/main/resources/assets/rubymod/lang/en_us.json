@@ -2,11 +2,20 @@
   "item.rubymod.ruby": "Ruby",
   "item.rubymod.raw_ruby": "Raw Ruby",
   "item.rubymod.dark_ruby": "Dark Ruby",
+  "item.rubymod.ruby_sword": "Ruby Sword",
+  "item.rubymod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.rubymod.ruby_axe": "Ruby Axe",
+  "item.rubymod.ruby_shovel": "Ruby Shovel",
+  "item.rubymod.ruby_hoe": "Ruby Hoe",
 
   "block.rubymod.ruby_block": "Block of Ruby",
   "block.rubymod.raw_ruby_block": "Block of Raw Ruby",
   "block.rubymod.dark_ruby_block": "Block of Dark Ruby",
+  "block.rubymod.ruby_ore": "Ruby Ore",
+  "block.rubymod.ruby_deepslate_ore": "Deepslate Ruby Ore",
 
   "creativetab.rubymod.ruby_items": "Ruby Items",
-  "creativetab.rubymod.ruby_blocks": "Ruby Blocks"
+  "creativetab.rubymod.ruby_blocks": "Ruby Blocks",
+  "creativetab.rubymod.ruby_tools": "Ruby Tools"
+
 }

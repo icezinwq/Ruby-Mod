@@ -32,6 +32,20 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RUBY_BLOCK.get());
                         output.accept(ModBlocks.RAW_RUBY_BLOCK.get());
                         output.accept(ModBlocks.DARK_RUBY_BLOCK.get());
+                        output.accept(ModBlocks.RUBY_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_RUBY_ORE.get());
+                    }).build());
+
+    public static final RegistryObject<CreativeModeTab> RUBY_TOOLS_TAB = CREATIVE_MODE_TABS.register("ruby_tools_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RUBY_SWORD.get()))
+                    .withTabsBefore(RUBY_BLOCKS_TAB.getId())
+                    .title(Component.translatable("creativetab.rubymod.ruby_tools"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.RUBY_SWORD.get());
+                        output.accept(ModItems.RUBY_PICKAXE.get());
+                        output.accept(ModItems.RUBY_AXE.get());
+                        output.accept(ModItems.RUBY_SHOVEL.get());
+                        output.accept(ModItems.RUBY_HOE.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {
