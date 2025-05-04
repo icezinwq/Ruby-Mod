@@ -1,0 +1,5 @@
+// 1.21	2025-05-04T18:17:22.5944153	Tags for minecraft:block mod id rubymod
+5a1d1c46738e30af64ca1d7ead3542fa5a127420 data/minecraft/tags/block/mineable/pickaxe.json
+7891618b951dab68af4f0dc8adca39e7e89e9a3f data/minecraft/tags/block/needs_diamond_tool.json
+44279bbc66ba6b40947c6fbc6299f653ead8222c data/rubymod/tags/block/incorrect_for_ruby_tool.json
+9d384164210ad556c26bafb440bb85464ceb116e data/rubymod/tags/block/needs_ruby_tool.json

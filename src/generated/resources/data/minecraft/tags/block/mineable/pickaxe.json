@@ -1,0 +1,8 @@
+{
+  "values": [
+    "rubymod:ruby_block",
+    "rubymod:raw_ruby_block",
+    "rubymod:ruby_ore",
+    "rubymod:ruby_deepslate_ore"
+  ]
+}

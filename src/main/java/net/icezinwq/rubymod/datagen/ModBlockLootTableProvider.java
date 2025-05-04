@@ -30,12 +30,13 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     protected void generate() {
         dropSelf(ModBlocks.RUBY_BLOCK.get());
         dropSelf(ModBlocks.RAW_RUBY_BLOCK.get());
+        dropSelf(ModBlocks.DARK_RUBY_BLOCK.get());
         // dropSelf(ModBlocks.MAGIC_BLOCK.get());
 
         this.add(ModBlocks.RUBY_ORE.get(),
                 block -> createOreDrop(ModBlocks.RUBY_ORE.get(), ModItems.RAW_RUBY.get()));
         this.add(ModBlocks.DEEPSLATE_RUBY_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.DEEPSLATE_RUBY_ORE.get(), ModItems.RAW_RUBY.get(), 2, 6));
+                block -> createMultipleOreDrops(ModBlocks.DEEPSLATE_RUBY_ORE.get(), ModItems.RAW_RUBY.get(), 1, 1));
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {
