@@ -25,6 +25,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         basicItem(ModItems.RUBY.get());
         basicItem(ModItems.RAW_RUBY.get());
+        basicItem(ModItems.DIAMOND_STICK.get());
         handheldItem(ModItems.RUBY_SWORD);
         handheldItem(ModItems.RUBY_AXE);
         handheldItem(ModItems.RUBY_PICKAXE);

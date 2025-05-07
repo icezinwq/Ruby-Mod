@@ -1,0 +1,9 @@
+{
+  "remove": [
+    "#rubymod:incorrect_for_dark_ruby_tool"
+  ],
+  "values": [
+    "#minecraft:incorrect_for_diamond_tool",
+    "#minecraft:incorrect_for_netherite_tool"
+  ]
+}

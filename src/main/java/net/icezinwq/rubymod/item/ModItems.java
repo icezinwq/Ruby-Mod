@@ -20,6 +20,10 @@ public class ModItems {
     public static final RegistryObject<Item> DARK_RUBY = ITEMS.register("dark_ruby",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> DIAMOND_STICK = ITEMS.register("diamond_stick",
+            () -> new Item(new Item.Properties()));
+
+    //Ruby Tools
     public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword",
             () -> new SwordItem(ModToolTier.RUBY, new Item.Properties()
                     .attributes(SwordItem.createAttributes(ModToolTier.RUBY, 3, -2.4f))));
@@ -35,7 +39,22 @@ public class ModItems {
     public static final RegistryObject<Item> RUBY_HOE = ITEMS.register("ruby_hoe",
             () -> new HoeItem(ModToolTier.RUBY, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTier.RUBY, 0, -3.0f))));
-
+    //Dark Ruby Tools
+    public static final RegistryObject<Item> DARK_RUBY_SWORD = ITEMS.register("dark_ruby_sword",
+            () -> new SwordItem(ModToolTier.DARK_RUBY, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTier.DARK_RUBY, 3, -2.4f))));
+    public static final RegistryObject<Item> DARK_RUBY_PICKAXE = ITEMS.register("dark_ruby_pickaxe",
+            () -> new PickaxeItem(ModToolTier.DARK_RUBY, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTier.DARK_RUBY, 1, -2.8f))));
+    public static final RegistryObject<Item> DARK_RUBY_SHOVEL = ITEMS.register("dark_ruby_shovel",
+            () -> new ShovelItem(ModToolTier.DARK_RUBY, new Item.Properties()
+                    .attributes(ShovelItem.createAttributes(ModToolTier.DARK_RUBY, 1.5f, -3.0f))));
+    public static final RegistryObject<Item> DARK_RUBY_AXE = ITEMS.register("dark_ruby_axe",
+            () -> new AxeItem(ModToolTier.DARK_RUBY, new Item.Properties()
+                    .attributes(AxeItem.createAttributes(ModToolTier.DARK_RUBY, 6, -3.2f))));
+    public static final RegistryObject<Item> DARK_RUBY_HOE = ITEMS.register("dark_ruby_hoe",
+            () -> new HoeItem(ModToolTier.DARK_RUBY, new Item.Properties()
+                    .attributes(HoeItem.createAttributes(ModToolTier.DARK_RUBY, 0, -3.0f))));
 
 
     public static void register(IEventBus eventBus) {

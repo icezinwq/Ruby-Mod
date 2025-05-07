@@ -21,6 +21,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.RUBY_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_RUBY_ORE);
 
+        blockWithItem(ModBlocks.DARK_RUBY_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_DARK_RUBY_ORE);
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

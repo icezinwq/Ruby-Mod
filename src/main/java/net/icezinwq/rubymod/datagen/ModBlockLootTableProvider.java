@@ -36,7 +36,11 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         this.add(ModBlocks.RUBY_ORE.get(),
                 block -> createOreDrop(ModBlocks.RUBY_ORE.get(), ModItems.RAW_RUBY.get()));
         this.add(ModBlocks.DEEPSLATE_RUBY_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.DEEPSLATE_RUBY_ORE.get(), ModItems.RAW_RUBY.get(), 1, 1));
+                block -> createOreDrop(ModBlocks.DEEPSLATE_RUBY_ORE.get(), ModItems.RAW_RUBY.get()));
+        this.add(ModBlocks.DARK_RUBY_ORE.get(),
+                block -> createOreDrop(ModBlocks.DARK_RUBY_ORE.get(), ModItems.DARK_RUBY.get()));
+        this.add(ModBlocks.DEEPSLATE_DARK_RUBY_ORE.get(),
+                block -> createOreDrop(ModBlocks.DEEPSLATE_DARK_RUBY_ORE.get(), ModItems.DARK_RUBY.get()));
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

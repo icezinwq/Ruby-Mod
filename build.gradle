@@ -7,7 +7,7 @@ plugins {
 }
 
 tasks.withType(Copy).configureEach {
-    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    duplicatesStrategy = DuplicatesStrategy.WARN;
 }
 
 version = mod_version

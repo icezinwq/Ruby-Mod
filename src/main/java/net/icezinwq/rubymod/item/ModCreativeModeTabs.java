@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.RUBY.get());
                       output.accept(ModItems.RAW_RUBY.get());
                       output.accept(ModItems.DARK_RUBY.get());
+                      output.accept(ModItems.DIAMOND_STICK.get());
                     }).build());
 
 
@@ -46,6 +47,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RUBY_AXE.get());
                         output.accept(ModItems.RUBY_SHOVEL.get());
                         output.accept(ModItems.RUBY_HOE.get());
+                        output.accept(ModItems.DARK_RUBY_SWORD.get());
+                        output.accept(ModItems.DARK_RUBY_PICKAXE.get());
+                        output.accept(ModItems.DARK_RUBY_AXE.get());
+                        output.accept(ModItems.DARK_RUBY_SHOVEL.get());
+                        output.accept(ModItems.DARK_RUBY_HOE.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {
