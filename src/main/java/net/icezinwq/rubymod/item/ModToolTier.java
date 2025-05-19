@@ -16,7 +16,4 @@ public class ModToolTier {
             () -> Ingredient.of(ModItems.DARK_RUBY.get()),
             ModTags.Blocks.INCORRECT_FOR_DARK_RUBY_TOOL);
 
-    public static final Tier NETHERITE = new ForgeTier(2031, 9.0f, 4.0f, 15, ModTags.Blocks.NEEDS_NETHERITE_TOOL,
-            () -> Ingredient.of(Items.NETHERITE_INGOT),
-                BlockTags.INCORRECT_FOR_NETHERITE_TOOL);
 }

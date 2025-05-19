@@ -1,6 +1,9 @@
 {
   "values": [
     "rubymod:raw_ruby_block",
+    "rubymod:dark_ruby_ore",
+    "rubymod:dark_ruby_deepslate_ore",
+    "rubymod:dark_ruby_block",
     "#minecraft:needs_diamond_tool"
   ]
 }

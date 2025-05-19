@@ -39,6 +39,21 @@ public class ModItems {
     public static final RegistryObject<Item> RUBY_HOE = ITEMS.register("ruby_hoe",
             () -> new HoeItem(ModToolTier.RUBY, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTier.RUBY, 0, -3.0f))));
+
+    //Ruby Armor
+
+    public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet",
+            () -> new ArmorItem(ModArmorMaterials.RUBY_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(10))));
+    public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.RUBY_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(10))));
+    public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings",
+            () -> new ArmorItem(ModArmorMaterials.RUBY_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(10))));
+    public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots",
+            () -> new ArmorItem(ModArmorMaterials.RUBY_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(10))));
     //Dark Ruby Tools
     public static final RegistryObject<Item> DARK_RUBY_SWORD = ITEMS.register("dark_ruby_sword",
             () -> new SwordItem(ModToolTier.DARK_RUBY, new Item.Properties()
@@ -55,6 +70,7 @@ public class ModItems {
     public static final RegistryObject<Item> DARK_RUBY_HOE = ITEMS.register("dark_ruby_hoe",
             () -> new HoeItem(ModToolTier.DARK_RUBY, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTier.DARK_RUBY, 0, -3.0f))));
+
 
 
     public static void register(IEventBus eventBus) {

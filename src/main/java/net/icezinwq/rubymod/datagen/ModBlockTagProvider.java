@@ -6,6 +6,7 @@ import net.icezinwq.rubymod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -24,17 +25,20 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RUBY_BLOCK.get())
                 .add(ModBlocks.RAW_RUBY_BLOCK.get())
                 .add(ModBlocks.RUBY_ORE.get())
-                .add(ModBlocks.DEEPSLATE_RUBY_ORE.get());
+                .add(ModBlocks.DEEPSLATE_RUBY_ORE.get())
+                .add(ModBlocks.DARK_RUBY_ORE.get())
+                .add(ModBlocks.DEEPSLATE_DARK_RUBY_ORE.get());
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE.get())
                 .add(ModBlocks.RAW_RUBY_BLOCK.get());
 
-        tag(ModTags.Blocks.NEEDS_NETHERITE_TOOL)
-                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
         tag(ModTags.Blocks.NEEDS_RUBY_TOOL)
                 .add(ModBlocks.RAW_RUBY_BLOCK.get())
+                .add(ModBlocks.DARK_RUBY_ORE.get())
+                .add(ModBlocks.DEEPSLATE_DARK_RUBY_ORE.get())
+                .add(ModBlocks.DARK_RUBY_BLOCK.get())
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
         tag(ModTags.Blocks.INCORRECT_FOR_RUBY_TOOL)
@@ -43,11 +47,10 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         tag(ModTags.Blocks.NEEDS_DARK_RUBY_TOOL)
                 .add(ModBlocks.DARK_RUBY_BLOCK.get())
-                .addTag(ModTags.Blocks.NEEDS_NETHERITE_TOOL);
+                .addTag(ModTags.Blocks.NEEDS_RUBY_TOOL);
 
         tag(ModTags.Blocks.INCORRECT_FOR_DARK_RUBY_TOOL)
                 .addTag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
-                .addTag(BlockTags.INCORRECT_FOR_NETHERITE_TOOL)
                 .remove(ModTags.Blocks.INCORRECT_FOR_DARK_RUBY_TOOL);
     }
 }

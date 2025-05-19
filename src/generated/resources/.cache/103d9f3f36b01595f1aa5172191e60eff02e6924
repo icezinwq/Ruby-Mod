@@ -1,0 +1,7 @@
+// 1.21	2025-05-09T17:34:36.1642546	Registries
+941c2c6b980ddc7071db79158d91a1086b948c74 data/rubymod/forge/biome_modifier/add_dark_ruby_ore.json
+9691a921c860348f9547bde21dd7399faaa9ef62 data/rubymod/forge/biome_modifier/add_ruby_ore.json
+05edd47154e796cd6a47d898655eb3c05766f480 data/rubymod/worldgen/configured_feature/dark_ruby_ore.json
+6bfe2c6bf7344fdbd19a8a2e1cf010818544b114 data/rubymod/worldgen/configured_feature/ruby_ore.json
+9d7deadd9f9430f93e6dee630d4a1007c9d680ac data/rubymod/worldgen/placed_feature/dark_ruby_ore_placed.json
+dbe7c28219f68973f991cfc63c99257fad20d8c5 data/rubymod/worldgen/placed_feature/ruby_ore_placed.json

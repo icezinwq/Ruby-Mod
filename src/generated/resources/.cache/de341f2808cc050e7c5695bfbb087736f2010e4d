@@ -1,8 +1,7 @@
-// 1.21	2025-05-06T18:20:44.4021407	Tags for minecraft:block mod id rubymod
-5a1d1c46738e30af64ca1d7ead3542fa5a127420 data/minecraft/tags/block/mineable/pickaxe.json
+// 1.21	2025-05-09T17:34:36.1604485	Tags for minecraft:block mod id rubymod
+6a889943f34d0ac7c064a27f38272532b427bee4 data/minecraft/tags/block/mineable/pickaxe.json
 7891618b951dab68af4f0dc8adca39e7e89e9a3f data/minecraft/tags/block/needs_diamond_tool.json
-4167b697075992df7e51c8d559374b5fa47d7312 data/rubymod/tags/block/incorrect_for_dark_ruby_tool.json
+571671eb13944dfe04b3c6984725926ea7193917 data/rubymod/tags/block/incorrect_for_dark_ruby_tool.json
 44279bbc66ba6b40947c6fbc6299f653ead8222c data/rubymod/tags/block/incorrect_for_ruby_tool.json
-8aa970e21bc90aa26a118ff13ab1e134f9d6ad52 data/rubymod/tags/block/needs_dark_ruby_tool.json
-a249c46329a41538f49a564e1f14338aaf1be5a0 data/rubymod/tags/block/needs_netherite_tool.json
-9d384164210ad556c26bafb440bb85464ceb116e data/rubymod/tags/block/needs_ruby_tool.json
+448e58d0a66c27275fade75e527ba35198989235 data/rubymod/tags/block/needs_dark_ruby_tool.json
+9597793508cde87b429439d2690c222db8ccde12 data/rubymod/tags/block/needs_ruby_tool.json
